@@ -1,7 +1,7 @@
 namespace TriangleTracker
 {
-  public class Triangle
+  public class Triangles
   {
-
+    
   }
 }

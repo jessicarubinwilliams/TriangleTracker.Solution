@@ -4,7 +4,7 @@ using TriangleTracker;
 namespace TriangleTracker.Tests 
 {
   [TestClass]
-  public class TrianglesTests
+  public class TriangleTests
   {
     
   }
