@@ -1,5 +1,5 @@
 using System;
-using TriangleTracker.Models
+using TriangleTracker.Models;
 
 namespace TriangleTracker
 {
@@ -7,7 +7,7 @@ namespace TriangleTracker
   {
     public static void Main()
     {
-      
+
     }
   }
 }
