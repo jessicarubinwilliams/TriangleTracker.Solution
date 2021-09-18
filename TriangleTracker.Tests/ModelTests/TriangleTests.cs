@@ -73,7 +73,7 @@ namespace TriangleTracker.Tests
         int side3 = 22;
         Triangle newTriangle = new Triangle(side1, side2, side3);
         string result = newTriangle.CheckType();
-        Assert.AreEqual("Not a Triangle", result);
+        Assert.AreEqual("not a Triangle", result);
     }
   }
 }
