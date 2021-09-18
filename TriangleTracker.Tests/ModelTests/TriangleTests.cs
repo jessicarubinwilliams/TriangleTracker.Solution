@@ -65,5 +65,15 @@ namespace TriangleTracker.Tests
       Assert.AreEqual(updatedSide3, result3);
     }
 
+    [TestMethod]
+    public void CheckType_Determine3SidesNotTriangle_String()
+    {
+        int side1 = 3;
+        int side2 = 9;
+        int side3 = 22;
+        Triangle newTriangle = new Triangle(side1, side2, side3);
+        string result = newTriangle.CheckType();
+        Assert.AreEqual("Not a Triangle", result);
+    }
   }
 }

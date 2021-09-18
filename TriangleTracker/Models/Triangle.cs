@@ -12,5 +12,10 @@ namespace TriangleTracker.Models
       Side2 = side2;
       Side3 = side3;
     }
+
+    public string CheckType()
+    {
+      return "test";
+    }
   }
 }
