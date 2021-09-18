@@ -75,5 +75,16 @@ namespace TriangleTracker.Tests
         string result = newTriangle.CheckType();
         Assert.AreEqual("not a Triangle", result);
     }
+
+    [TestMethod]
+    public void CheckType_DetermineIfScalene_String()
+    {
+      int side1 = 4;
+      int side2 = 5;
+      int side3 = 7;
+      Triangle newTriangle = new Triangle(side1, side2, side3);
+      string result = newTriangle.CheckType();
+      Assert.AreEqual("scalene triangle", result);
+    }
   }
 }
