@@ -23,6 +23,10 @@ namespace TriangleTracker.Models
       {
         return "scalene triangle";
       }
+      else if ((Side1 == Side2) && (Side1 == Side3))
+      {
+        return "equilateral triangle";
+      }
       else
       {
         return "isosceles triangle";

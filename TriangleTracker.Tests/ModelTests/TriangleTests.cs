@@ -95,7 +95,7 @@ namespace TriangleTracker.Tests
       int side3 = 5;
       Triangle newTriangle = new Triangle(side1, side2, side3);
       string result = newTriangle.CheckType();
-      Assert.AreEqual("equilateral", result);
+      Assert.AreEqual("equilateral triangle", result);
     }
   }
 }
