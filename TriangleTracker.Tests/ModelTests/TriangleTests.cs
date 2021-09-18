@@ -44,5 +44,26 @@ namespace TriangleTracker.Tests
       Assert.AreEqual(side3, result);
     }
 
+    [TestMethod]
+    public void SetSides_SetSides_Int()
+    {
+      int side1 = 0;
+      int side2 = 0;
+      int side3 = 0;
+      Triangle newTriangle = new Triangle(side1, side2, side3);
+      int updatedSide1 = 2;
+      int updatedSide2 = 4;
+      int updatedSide3 = 5;
+      newTriangle.Side1 = updatedSide1;
+      newTriangle.Side2 = updatedSide2;
+      newTriangle.Side3 = updatedSide3;
+      int result1 = newTriangle.Side1;
+      int result2 = newTriangle.Side2;
+      int result3 = newTriangle.Side3;
+      Assert.AreEqual(updatedSide1, result1);
+      Assert.AreEqual(updatedSide2, result2);
+      Assert.AreEqual(updatedSide3, result3);
+    }
+
   }
 }
